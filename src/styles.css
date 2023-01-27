@@ -1,0 +1,158 @@
+* {
+  font-family: "Arial", sans-serif;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border: none;
+}
+
+th {
+  text-align: left;
+  background-color: #333;
+  color: #fff;
+}
+
+td {
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  width: 100vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.table-dark tbody td {
+  color: #fff;
+}
+
+.highlight {
+  color: rgb(255, 84, 84);
+}
+
+.info {
+  margin: 10px;
+}
+
+.info > button {
+  width: 200px;
+  height: 200px;
+}
+
+.info > div {
+  padding: 15px;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.dark {
+  background-color: rgb(35, 35, 35);
+  color: white;
+}
+
+.white {
+  background-color: #fff;
+}
+
+body {
+  background-color: #111;
+}
+
+h1,
+h2,
+h3 {
+  color: #fff;
+  text-shadow: 2px 2px #333;
+  text-align: center;
+}
+
+p {
+  color: #ccc;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #555;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  background-color: #666;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+}
